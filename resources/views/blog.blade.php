@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome |Paroki Santo Mikael Semarang Indah</title>
+    <title>Blog | Paroki Santo Mikael Semarang Indah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -14,10 +14,6 @@
 
     <!-- Header -->
     <header class="container-fluid">
-        <!--Card Title-->
-    <div class="card text-bg-dark">
-  <img src="image/slide2.jpg" class="card-img" alt="">
-  <div class="card-img-overlay">
      <!--Logo-->
      <div class="d-flex margin-left">
             <div class="col-md-4">
@@ -66,76 +62,15 @@
             </nav>
 
         </div>
-    <h3 class="card-title text-center">Paroki St.Mikael Semarang Indah</h3>
   </div>
     </div>
        
             
     </header>
-
-    <!-- Carousell -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="image/slide1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image/slide2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image/slide3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-5 col-md-10 text-center">
-                            <h4>Jam Kerja Sekretariat</h4>
-                        </div>
-                    </div>
-                    <!-- Your text content -->
-                    <div class="">
-                        <div class="row">
-                            <div class="col-sm-5 col-md-10">
-                                <h6>Senin Libur</h6>
-                                <h6>Selasa - Jumat : 09.00 - 12.00 & 18.00 - 21.00</h6>
-                                <h6>Sabtu - Minggu : 10.00 - 12.00 & 18.00 - 21.00</h6>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="d-flex col-sm-5 col-md-10">
-                                <h5>
-                                </h5>
-                            </div>
-                        </div>
-                        <div class="row">
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-sm-5 col-md-10">
-                                <h4>Jadwal Misa</h4>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-5 col-md-10">
-                                <h6>Harian : 5.30</h6>
-                                <h6>Jumat Pertama : 18.00</h6>
-                                <h6>Sabtu : 17.30 (Mikael) & 17.30 (Martinus)</h6>
-                                <h6>Minggu : 07.00;08.45(Inggris);17.30 </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Banner -->
+    <div class="container banner-container">
+        <h3 class="d-flex justify-content-center text-center">Berita Acara</h3>
+        <img src="image/banner.jpg" class="banner-image" width="100%" height="300px" alt="Banner">
     </div>
 
     <!-- Berita Card -->
@@ -144,9 +79,9 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="image/sky.jpeg" class="card-img-top rounded" height="500px" width="100px" alt="">
+                <img src="image/sky.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="">
                 <div class="card-body d-flex flex-column align-items-center">
-                    <h5 class="card-title">Judul Berita 1</h5>
+                    <h5 class="card-title">Berita 1</h5>
                     <p class="card-text">Deskripsi berita 1</p>
                     <a href="#" class="btn btn-primary">Read More</a>
                 </div>
@@ -155,9 +90,9 @@
 
         <div class="col-md-4">
             <div class="card">
-                <img src="image/kucing.jpeg" class="card-img-top rounded" height="500px" width="100px" alt="">
+                <img src="image/kucing.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="">
                 <div class="card-body d-flex flex-column align-items-center">
-                    <h5 class="card-title text-center">Judul Berita 2</h5>
+                    <h5 class="card-title text-center">Berita 2</h5>
                     <p class="card-text text-center">Deskripsi Berita 2</p>
                     <a href="#" class="btn btn-primary">Read More</a>
                 </div>
@@ -166,9 +101,9 @@
 
         <div class="col-md-4">
             <div class="card">
-                <img src="image/kelapa.jpeg" class="card-img-top rounded" height="500px" width="100px" alt="">
+                <img src="image/kelapa.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="">
                 <div class="card-body d-flex flex-column align-items-center">
-                    <h5 class="card-title">Judul Berita 3</h5>
+                    <h5 class="card-title">Berita 3</h5>
                     <p class="card-text">Deskripsi berita 3</p>
                     <a href="#" class="btn btn-primary">Read More</a>
                 </div>
@@ -177,8 +112,42 @@
     </div>
 </div>
 
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="image/kelapa.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Berita 4</h5>
+                    <p class="card-text">Deskripsi berita 4</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="card">
+                <img src="image/sky.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="Sample Image 2">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title text-center">Berita 5</h5>
+                    <p class="card-text text-center">Deskripsi Berita 5</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="card">
+                <img src="image/kucing.jpeg" class="card-img-top rounded" width="100px" height="500px" alt="Sample Image 3">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Berita 6</h5>
+                    <p class="card-text">Deskripsi berita 6</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Footer -->
     <footer class="container">
